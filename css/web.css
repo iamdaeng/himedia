@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  /*top, left, right, bottom 움직이려면 당연히*/
+  top: 50vh;
+  /*화면높이*/
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body a {
+  font-size: 3em;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .naver {
+  background-color: green;
+  color: white;
+}
+
+body .naver:hover {
+  background-color: white;
+  color: green;
+  border: 3px solid green;
+}
+
+body .google {
+  background-color: blue;
+  color: white;
+}
+
+body .google:hover {
+  background-color: white;
+  color: blue;
+  border: 3px solid blue;
+}
+
+body .daum {
+  background-color: yellow;
+  color: black;
+}
+
+body .daum {
+  background-color: black;
+  color: yellow;
+  border: 3px yellow;
+}
+/*# sourceMappingURL=web.css.map */
